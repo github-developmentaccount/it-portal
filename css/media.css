@@ -64,6 +64,15 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	.tags-box {
+		    position: absolute;
+		    top: 1px;
+		    right: 1px;
+		    display: block;
+	}
+	.tags-box a {
+		display: block;
+	}
 
 }
 
