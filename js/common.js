@@ -1,6 +1,10 @@
 $(document).ready(function() {
 
 
+		$('.scope-tags').click(function (){
+			$('.tags-box').fadeToggle(120);
+		});
+
 		$('.prev_button, .next_button').hover(function () {
 			$(this).animate({opacity: 0.4}, 400);
 		}, function () {

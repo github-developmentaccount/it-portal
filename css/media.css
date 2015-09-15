@@ -7,6 +7,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+
 	
 }
 
@@ -59,20 +60,53 @@
 	#angle-right {
 		top: 15px;
 	}
+/* scope-tags-top */
+	.tags-box {
+		min-width: 100px !important;
+		max-width: 150px !important;
+		min-height: 110px;
+		display: none;
+		position: absolute !important;
+		background-color: #000;
+		top: 2em;
+		right: 1em;	
+		opacity: 0.9;
 
+
+		    
+	}
+	.scope-top {
+		display: block !important;
+		padding: 0px;
+		position: relative;
+		padding-left: 10px;
+	}
+	.scope-top li {
+		display: block !important;
+		padding-top: 4px;
+		
+	}
+	#one, #two, #three, #four {
+		padding-left: 2px !important;
+	}
+	
+	.tags-box a {
+		top: 0%;
+		background-color: #000000;
+		color: #FFFFFF !important;
+	}
+	.text-writer, .calendar, .comments, .views {
+		float: none !important;
+		left: 0px !important;
+	}
+	
+		
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	.tags-box {
-		    position: absolute;
-		    top: 1px;
-		    right: 1px;
-		    display: block;
-	}
-	.tags-box a {
-		display: block;
-	}
+
+	
 
 }
 
@@ -106,6 +140,10 @@
 .home {
 
 display: block !important;
+}
+
+.tags-box {
+	display: block !important;
 }
 
 /* Medium Devices, Desktops */
