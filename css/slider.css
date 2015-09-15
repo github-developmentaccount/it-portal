@@ -1,0 +1,39 @@
+
+
+.slider-container img {
+	max-width: 100%;
+}
+.slider-container {
+	max-width: 1180px;
+    margin: 0px auto;
+    position: relative;
+    
+}
+
+
+.prev_button, .next_button {
+	position: absolute;
+	border: none;
+	font-size: 60px;
+	color: #8CC0F9;
+	opacity: 0.2;
+	cursor: pointer;
+	z-index: 998;
+	top: 28%;
+}
+
+.prev_button {
+	left: 10px;
+	
+}
+.next_button {
+	right: 10px;
+
+/*
+}
+span.item {
+	color: #fff;
+	font-size: 12px;
+	z-index: 997;
+}
+*/
